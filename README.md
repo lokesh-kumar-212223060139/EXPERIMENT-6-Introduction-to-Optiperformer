@@ -84,6 +84,15 @@ The system includes:
 
 <img width="271" height="178" alt="image" src="https://github.com/user-attachments/assets/a97f0685-9876-4dac-887e-06cf108f7331" />
 
+![WhatsApp Image 2025-11-17 at 22 31 10_55d515ff](https://github.com/user-attachments/assets/39891f95-d8a3-4968-8560-b3f23e5c7372)
+![WhatsApp Image 2025-11-17 at 22 31 10_b4f0be9c](https://github.com/user-attachments/assets/316d928c-e22f-44bb-a521-2062a97e4cf8)
+![WhatsApp Image 2025-11-17 at 22 31 11_8c4834dc](https://github.com/user-attachments/assets/d6ee582d-c625-4443-a998-e92b4f83d87c)
+![WhatsApp Image 2025-11-17 at 22 31 11_0d8e7ab8](https://github.com/user-attachments/assets/8f8994d7-45a3-403d-846b-0fd7a11d30c0)
+![WhatsApp Image 2025-11-17 at 22 31 11_fa8616d7](https://github.com/user-attachments/assets/f00bea1e-964c-4458-88c1-801355dce974)
+![WhatsApp Image 2025-11-17 at 22 31 12_2c4a9c90](https://github.com/user-attachments/assets/259c5f10-78df-4ab4-a9f7-45199abb7deb)
+
+
+
 
 
 
