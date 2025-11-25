@@ -62,7 +62,8 @@ The system includes:
 1. Cover sheet (as per attached example).  
 2. Tabulation of received power, Q factor, and BER for 5 fiber lengths.  
 3. Plot of received power, Q factor, and BER vs. fiber length.  
-4. Description of eye diagram changes with increasing fiber length.
+4. Description of eye diagram changes with increasing fiber length.<img width="1123" height="387" alt="image" src="https://github.com/user-attachments/assets/9c64f757-16ca-4ec6-b921-c7efb92e0406" />
+
 
 ---
 
@@ -71,6 +72,12 @@ The system includes:
 **Transmission Analysis Across Fiber Lengths**
 
 ![WhatsApp Image 2025-11-12 at 13 43 35_b50e4112](https://github.com/user-attachments/assets/afe48856-3cf9-4aaf-a81a-e2199f2ed272)
+
+Optiwave introduces OptiPerformer, a free photonic design automation tool which harnesses the full power of OptiSystem and creates specific dynamic design scenarios which can be used by students.
+In this exercise, you will download and install OptiPerformer on your PC/laptop. Your license of OptiPerformer will be capable of loading and running OptiSystem simulations prepared for this course.
+Once you have installed OptiPerformer, you can copy the first file (named: ‘Introduction_OptiPerformer.osp’) to your PC and run the simulation. The first file is a basic fiber optic system consisting of a transmitter, a fiber and a receiver. The system is “instrumented” with an optical power meter at the input to receiver (or the output of the fiber) and a bit error rate (BER) analyzer.
+
+
 
 ---
 
