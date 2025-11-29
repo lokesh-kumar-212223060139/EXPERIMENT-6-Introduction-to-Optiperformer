@@ -6,105 +6,55 @@ Download and install OptiPerformer software on your computer and run a sample fi
 
 ---
 
-## Overview
+##EQUIPMENTS REQUIRED:
 
-Optiwave introduces **OptiPerformer**, a free photonic design automation tool that harnesses the full power of OptiSystem and creates specific dynamic design scenarios for student use.
+Optisystem Software – OptiPerformer 22.0
 
-In this exercise, you will:
-- Download and install OptiPerformer on your PC/laptop.
-- Use your license to load and run OptiSystem simulations prepared for this course.
+##THEORY:
 
-The first simulation file (`Introduction_OptiPerformer.osp`) models a basic fiber optic system consisting of:
-- A transmitter
-- A fiber
-- A receiver
+Optiwave introduces OptiPerformer, a free photonic design automation tool which harnesses the full power of OptiSystem and creates specific dynamic design scenarios which can be used by students.
+In this exercise, you will download and install OptiPerformer on your PC/laptop. Your license of OptiPerformer will be capable of loading and running OptiSystem simulations prepared for this course.
+Once you have installed OptiPerformer, you can copy the first file (named: ‘Introduction_OptiPerformer.osp’) to your PC and run the simulation. The first file is a basic fiber optic system consisting of a transmitter, a fiber and a receiver. The system is “instrumented” with an optical power meter at the input to receiver (or the output of the fiber) and a bit error rate (BER) analyzer.
 
-The system includes:
-- An optical power meter at the receiver input (fiber output)
-- A Bit Error Rate (BER) analyzer
-
----
-
-## Instructions
-
-1. Download and install OptiPerformer from [optiwave.com](https://optiwave.com).  
-2. Copy the `Introduction_OptiPerformer.osp` file to your PC.  
-3. Launch OptiPerformer.  
-4. Use the **File** menu or **Open File** button to open the fiber optic system file.  
-5. Study the layout:
-   - **Transmitter** section includes:
-     - Binary source (PRBS generator)
-     - Electrical pulse generator
-     - Laser diode
-     - External modulator  
-   - **Receiver** section includes:
-     - Photodiode
-     - Low-pass filter
-     - Decision circuit with BER analyzer  
-6. Run the simulation using the **Start** button.  
-   - Progress will be displayed.
-   - Message “Calculation Finished!” appears upon completion.  
-7. Double-click the **optical power meter** and **BER analyzer** windows.  
-   - Check “Show Eye Diagram” in the BER window.  
-   - Optical power meter shows power in watts and dBm.  
-   - BER window displays:
-     - Eye diagram
-     - Max Q Factor
-     - Min BER  
-8. The simulation runs 5 iterations with fiber length varying from 50 to 150 km.  
-   - Use forward/reverse buttons to step through iterations.  
-   - Observe changes in received power, BER, Q factor, and eye diagram.
-
----
+##PROCEDURE:
+1.	Download and install OptiPerformer from the optiwave.com web site.
+2.	Copy the ‘Introduction_OptiPerformer.osp’ file to your PC
+3.	Start OptiPerformer
+4.	Use either the File menu or the Open File button to open the Fiber Optic System File.
+5.	Study the layout, which includes some text and boxes to identify the three components of the fiber optic system. The “transmitter” section includes a binary source (PRBS or pseudo-random bit sequence generator), an electrical pulse generator, a laser diode and an external modulator. The receiver section includes a photodiode, a low-pass filter and a decision circuit, which includes a BER analyzer. We will cover these components in more detail later in the course.
+6.	Run the simulation by pushing the start button. The progress of the simulation will be displayed
+and the message “Calculation Finished!” will appear when the simulation runs to completion.
+7.	Double click on the optical power meter and the BER analyzer and move the windows as necessary for clarity. Check the box next to “Show Eye Diagram” in the BER window. The optical power meter shows the power at the input to the photodiode in both watts and dBm. The BER window displays the “eye diagram” and several quantities including the “Max Q
+Factor” and the “Min BER”.
+8.	The simulation is set to run 5 “iterations”, with the fiber length varying from 50 to 150 km in 5 steps. The index is displayed in the upper right corner of the layout. To step through the iterations, use the forward and reverse buttons in the lower left of the window. Note the change in received power and BER display (eye diagram, Q factor and BER) with fiber length.
 
 ## Report
 
 1. Cover sheet (as per attached example).  
 2. Tabulation of received power, Q factor, and BER for 5 fiber lengths.  
 3. Plot of received power, Q factor, and BER vs. fiber length.  
-4. Description of eye diagram changes with increasing fiber length.<img width="1123" height="387" alt="image" src="https://github.com/user-attachments/assets/9c64f757-16ca-4ec6-b921-c7efb92e0406" />
-
+4. Description of eye diagram changes with increasing fiber length.
 
 ---
+## Block Diagram:
+
+<img width="945" height="484" alt="image" src="https://github.com/user-attachments/assets/8f57cf31-a7b9-432d-b1c2-a1b4155c37b9" />
 
 ## Tabulation
 
 **Transmission Analysis Across Fiber Lengths**
 
-![WhatsApp Image 2025-11-12 at 13 43 35_b50e4112](https://github.com/user-attachments/assets/afe48856-3cf9-4aaf-a81a-e2199f2ed272)
-
-Optiwave introduces OptiPerformer, a free photonic design automation tool which harnesses the full power of OptiSystem and creates specific dynamic design scenarios which can be used by students.
-In this exercise, you will download and install OptiPerformer on your PC/laptop. Your license of OptiPerformer will be capable of loading and running OptiSystem simulations prepared for this course.
-Once you have installed OptiPerformer, you can copy the first file (named: ‘Introduction_OptiPerformer.osp’) to your PC and run the simulation. The first file is a basic fiber optic system consisting of a transmitter, a fiber and a receiver. The system is “instrumented” with an optical power meter at the input to receiver (or the output of the fiber) and a bit error rate (BER) analyzer.
-
-
+![WhatsApp Image 2025-11-15 at 23 31 03_9f74abe3](https://github.com/user-attachments/assets/a307544d-e0a7-430e-84e6-dc966371e51f)
 
 ---
 
 ## Graphs
 
-<img width="637" height="358" alt="image" src="https://github.com/user-attachments/assets/6c718314-27c3-47c4-b61f-47ae479fb45a" />
-
-<img width="240" height="194" alt="image" src="https://github.com/user-attachments/assets/429c71bb-e98c-4f31-8b4b-1a5a310b029c" />
-
-<img width="537" height="430" alt="image" src="https://github.com/user-attachments/assets/0e87fd69-15e5-422c-82cc-ab0ad28d4dc2" />
-
-<img width="271" height="178" alt="image" src="https://github.com/user-attachments/assets/a97f0685-9876-4dac-887e-06cf108f7331" />
-
-![WhatsApp Image 2025-11-17 at 22 31 10_55d515ff](https://github.com/user-attachments/assets/39891f95-d8a3-4968-8560-b3f23e5c7372)
-![WhatsApp Image 2025-11-17 at 22 31 10_b4f0be9c](https://github.com/user-attachments/assets/316d928c-e22f-44bb-a521-2062a97e4cf8)
-![WhatsApp Image 2025-11-17 at 22 31 11_8c4834dc](https://github.com/user-attachments/assets/d6ee582d-c625-4443-a998-e92b4f83d87c)
-![WhatsApp Image 2025-11-17 at 22 31 11_0d8e7ab8](https://github.com/user-attachments/assets/8f8994d7-45a3-403d-846b-0fd7a11d30c0)
-![WhatsApp Image 2025-11-17 at 22 31 11_fa8616d7](https://github.com/user-attachments/assets/f00bea1e-964c-4458-88c1-801355dce974)
-![WhatsApp Image 2025-11-17 at 22 31 12_2c4a9c90](https://github.com/user-attachments/assets/259c5f10-78df-4ab4-a9f7-45199abb7deb)
-
-
-
-
+<img width="1205" height="680" alt="image" src="https://github.com/user-attachments/assets/46fdb293-3fc0-47fc-8c66-ae35fc88bad3" />
 
 
 ---
 
 ## RESULT
 
-hence the optical performace of fiber cable studiend and proved at different rates.
+Hence the optical performace of fiber cable studiend and proved at different rates.
